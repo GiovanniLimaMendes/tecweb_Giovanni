@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Média Aluno</title>
+</head>
+<body>
+    <div>    
+        <h1>Resultado escolar - Recuperação</h1>
+        <label>Nome do Aluno</label><p></p>
+        <input type="text" name="nome" id="nomeAluno" required><p></p>
+        <label>Digite a nota 1</label><p></p>
+        <input type="number" name="nota1" id="nota1" required><p></p>
+        <label>Digite a nota 2</label><p></p>
+        <input type="number" name="nota2" id="nota2" required><p></p>
+        <label>Digite a nota da recuperação</label><p></p>
+        <input type="number" name="nota2" id="recuperacao" placeholder="Somente para recuperação" required><p></p>
+        <button onclick="calcularMedia()">Calcular</button><br>
+        <p id="resultado"></p>
+    </div>
+    <script src="nmedia.js"></script>
+</body>
+</html>

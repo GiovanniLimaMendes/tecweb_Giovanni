@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+    width: 100vh;
+    height: 100vh;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(68, 186, 101);
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+button{
+    width: 253px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(17, 230, 52);
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(84, 255, 112);
+}
