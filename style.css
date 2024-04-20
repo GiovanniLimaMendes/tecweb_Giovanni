@@ -22,3 +22,7 @@ body{
     color: white;
     text-decoration: none;
 }
+
+p{
+    font-size: medium;
+}
